@@ -8,7 +8,7 @@ interface FadeUpProps {
   duration?: number
   className?: string
   style?: React.CSSProperties
-  as?: keyof JSX.IntrinsicElements
+  as?: keyof React.JSX.IntrinsicElements
 }
 
 export function FadeUp({
